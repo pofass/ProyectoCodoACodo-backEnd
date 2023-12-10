@@ -1,0 +1,281 @@
+{% extends "core/base.html" %}
+
+{% load static%}
+{%block link%}
+<link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+
+{%endblock%}
+{%block title%}IngenieriaAuto{%endblock%}
+{%block content%}
+
+    
+    
+    <section class="contenido-primero">
+        <h2>Prueba nuestros servicios. <a href="{% url 'catalogo'%}">¡Precio especial de invierno!</a></h2>
+        <div id="img-auto2"></div>
+       
+    </section>
+
+    <section class="contenido-segundo">
+        <h2>Nuestros clientes son lo mas importante!</h2>
+        <article>
+        <div class="imagen_clientes">
+                 
+            <img src="{% static 'core/Images/cliente_04.png ' %}" alt="cliente04"  />
+            <img src="{% static 'core/Images/cliente_05.png ' %}" alt="cliente05" />
+            <img src="{% static 'core/Images/cliente_06.png ' %}" alt="cliente06" />
+
+            <div id="h2-h3-contenido-segundo">
+                <h2>1.520</h2>
+                <h3>Clientes satisfechos</h3>
+            </div>
+        </div> 
+        
+            <div class="autos_cards">
+                <img class="auto-cards-individual" src="{% static 'core/Images/card_car_01.png' %}" alt="Auto01" />
+                <img class="auto-cards-individual" src="{% static 'core/Images/card_car_02.png' %}" alt="Auto02" />
+                <img class="auto-cards-individual" src="{% static 'core/Images/card_car_03.png '%}" alt="Auto03" />
+                
+                
+            </div>
+
+            <div class="autos_cards">
+                <img class="auto-cards-individual" src="{% static 'core/Images/card_car_04.png ' %}" alt="Auto04" />
+                <img class="auto-cards-individual" src="{% static 'core/Images/card_car_05.png' %}" alt="Auto05" />
+                <img class="auto-cards-individual" src="{% static 'core/Images/auto-card-09.png' %}" alt="Auto06" />
+            </div>
+            <p>¿Querés saber más de nuetros trabajos? <a href="{% url 'catalogo'%}">Visita nuestro catalogo!</a></p>
+        </article>
+        <br>
+
+       <div id="h3-nuestasVentajas"><h2>Nuestras ventajas</h2></div>
+
+        <article class="article_cards_icons">
+            
+
+                <div class="cardSimple_icons">
+                    <div class="cards-icons-individuales" >
+                        <img src="{% static 'core/Images/icon_cobertura.png ' %}" alt="cobertura nacional">
+                    </div>
+
+                    <div class="cardSimple_contenido">
+                        <div class="cardSimple_cabecera">
+                            <h3 id="cardSimple-nombre">Cobertura nacional</h3>
+                        </div>
+                        <p class="cardSimple_texto"> en una meritoria
+                            apuesta por la tecnología, lleva también tres trineos motorizados con
+                            orugas, si bien todos prototipos aún experimentales, el mejor de los
+                            cuales se hundió durante la descarga. No obstante, su apuesta
+                            fundamental, como hiciera Shackelton, fueron los caballos y sus propios
+                            hombres; lo que fue uno de sus primeros errores
+                        </p>
+                    </div>
+                </div>
+
+                    <div class="cardSimple_icons">
+                        <div class="cards-icons-individuales"> 
+                            <img  src="{% static 'core/Images/icon_soporte.png' %}" alt="cobertura nacional">
+                        </div>
+
+                        <div class="cardSimple_contenido">
+                            <div class="cardSimple_cabecera">
+                                <h3 class="cardSimple_nombre">Soporte constante</h3>
+                            </div>
+                            
+                            <p class="cardSimple_texto"> en una meritoria
+                                apuesta por la tecnología, lleva también tres trineos motorizados con
+                                orugas, si bien todos prototipos aún experimentales, el mejor de los
+                                cuales se hundió durante la descarga. No obstante, su apuesta
+                                fundamental, como hiciera Shackelton, fueron los caballos y sus propios
+                                hombres; lo que fue uno de sus primeros errores
+                            </p>
+                        </div>
+                       
+                    </div>
+
+                    <div class="cardSimple_icons" >
+                        <div class="cards-icons-individuales">
+                            <img src="{% static 'core/Images/icon_ahorro.png' %}" alt="cobertura nacional">
+                        </div>
+
+                        <div class="cardSimple_contenido">
+                            <div class="cardSimple_cabecera">
+                                <h3 class="cardSimple_nombre">Ahorro</h3>
+                            </div>
+                            
+                            <p class="cardSimple_texto"> en una meritoria
+                                apuesta por la tecnología, lleva también tres trineos motorizados con
+                                orugas, si bien todos prototipos aún experimentales, el mejor de los
+                                cuales se hundió durante la descarga. No obstante, su apuesta
+                                fundamental, como hiciera Shackelton, fueron los caballos y sus propios
+                                hombres; lo que fue uno de sus primeros errores
+                            </p>
+                        
+                    
+
+                    </div>
+                    
+                </div>
+                
+        </article>
+        <br>
+        <section class="contenido-auto03">
+            <h2>Interesado en nuetra vision? <a href="https://blog.reparacion-vehiculos.es/coches-del-futuro" target="_blank">mira este articulo</a></h2>
+           
+
+            
+        </section>
+        
+        
+            <article>
+                <div id="h3-nuestasVentajas"><h2>Nuestros Servicios</h2></div>
+    
+    
+                <div class="article_cards_icons">
+                    <div class="cardSimple_icons">
+    
+                        
+                        <div class="cardSimple_contenido">
+                            <div class="cardSimple_cabecera">
+                                <h3 class="cardSimple_nombre">Venta</h3>
+                            </div>
+                            
+                            <p class="cardSimple_texto"> en una meritoria
+                                apuesta por la tecnología, lleva también tres trineos motorizados con
+                                orugas, si bien todos prototipos aún experimentales, el mejor de los
+                                cuales se hundió durante la descarga. No obstante, su apuesta
+                                fundamental, como hiciera Shackelton, fueron los caballos y sus propios
+                                hombres; lo que fue uno de sus primeros errores
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="cardSimple_icons">
+                        
+                        
+                        <div class="cardSimple_contenido">
+                            <div class="cardSimple_cabecera">
+                                <h3 class="cardSimple_nombre">Soporte </h3>
+                            </div>
+                            
+                            <p class="cardSimple_texto"> en una meritoria
+                                apuesta por la tecnología, lleva también tres trineos motorizados con
+                                orugas, si bien todos prototipos aún experimentales, el mejor de los
+                                cuales se hundió durante la descarga. No obstante, su apuesta
+                                fundamental, como hiciera Shackelton, fueron los caballos y sus propios
+                                hombres; lo que fue uno de sus primeros errores
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="cardSimple_icons">
+                        
+                        
+                        <div class="cardSimple_contenido">
+                            <div class="cardSimple_cabecera">
+                                <h3 class="cardSimple_nombre">Servicio postventa</h3>
+                            </div>
+                            
+                            <p class="cardSimple_texto"> en una meritoria
+                                apuesta por la tecnología, lleva también tres trineos motorizados con
+                                orugas, si bien todos prototipos aún experimentales, el mejor de los
+                                cuales se hundió durante la descarga. No obstante, su apuesta
+                                fundamental, como hiciera Shackelton, fueron los caballos y sus propios
+                                hombres; lo que fue uno de sus primeros errores
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+       
+        
+           
+        
+    </section>
+    
+    <section class="contenido-tercero">
+    
+
+
+        <article class="seccion3">
+            <div class="h2_clientes-opinan"><h2>Que opinan nuestros Clientes</h2></div>
+            <div class="contenedorBq_card2">
+
+            <div class="cardBq2">
+                <div class="cardBq_contenido">
+                        <blockquote class="cardBq_texto">
+                            <p>
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu
+                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu
+                            </p>
+                        </blockquote>
+
+                        <div class="cardBq_footer">
+
+                            <div class="cardBq_imagen">
+                                <img src="{% static 'core/Images/pers_01.png' %}" alt="cliente01">
+                            </div>
+                            <div class="cardBq_contacto">
+                                <h4 class="cardBq_nombre">Guy Hawkins</h4>
+                                <h5 class="cardBq_nombre">Renault company</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="cardBq2">
+                    <div class="cardBq_contenido">
+                        <blockquote class="cardBq_texto">
+                            <p>
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu
+                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu
+                            </p>
+                        </blockquote>
+
+                        <div class="cardBq_footer">
+
+                            <div class="cardBq_imagen">
+                                <img src="{% static 'core/Images/pers_02.png' %}" alt="cliente01">
+                            </div>
+                            <div class="cardBq_contacto">
+                                <h4 class="cardBq_nombre">Felipe M.</h4>
+                                <h5 class="cardBq_nombre">Renault company</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cardBq2">
+                    <div class="cardBq_contenido">
+                        <blockquote class="cardBq_texto">
+                            <p>
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu
+                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu
+                            </p>
+                        </blockquote>
+
+                        <div class="cardBq_footer">
+
+                            <div class="cardBq_imagen">
+                                <img src="{% static 'core/Images/pers_03.png' %}" alt="cliente01">
+                            </div>
+                            <div class="cardBq_contacto">
+                                <h4 class="cardBq_nombre">Larry W.</h4>
+                                <h5 class="cardBq_nombre">Renault company</h5>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </article>
+
+       
+    </section>
+    
+    
+ {% endblock %}
+

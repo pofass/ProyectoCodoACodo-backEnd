@@ -1,0 +1,29 @@
+{% extends "core/base.html" %}
+{%load static%}
+{%block link%}
+<link rel="stylesheet" href="{% static 'core/css/stlye-catalogo.css' %}">
+ {%endblock%}
+{%block title%} Catálogo {%endblock%}
+
+{%block content%}
+
+{% for product in products %}
+
+ <section class="cards">
+            <article class="tarjeta">
+                <a href="#">
+                    <figure class="thumbnail">
+                        <img src="{{product.image.url}}" alt="">
+                    </figure>
+                </a>
+                <div class="tarjeta-content">
+                    <h2>{{product.title}}</h2>
+                    <p>Precio: {{product.price}} $ </p>
+                    <p>{{product.description}}</p>
+                </div>
+            </article>
+
+</section>
+{% endfor %}
+
+{%endblock%}
